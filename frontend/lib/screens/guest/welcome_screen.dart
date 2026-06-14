@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../widgets/app_drawer.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -7,6 +8,7 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Scaffold(
+      drawer: const AppDrawer(),
 
       appBar: AppBar(
         title: const Text('BallersHQ'),

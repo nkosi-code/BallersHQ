@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class FCMobileScreen extends StatelessWidget {
-  const FCMobileScreen({super.key});
+class PremierLeagueScreen extends StatelessWidget {
+  const PremierLeagueScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("FC Mobile"),
+        title: const Text("Premier League"),
       ),
       body: const Center(
-        child: Text("FC Mobile Hub"),
+        child: Text("League Table"),
       ),
     );
   }
