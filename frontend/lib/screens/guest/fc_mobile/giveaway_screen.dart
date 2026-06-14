@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class FCMobileScreen extends StatelessWidget {
-  const FCMobileScreen({super.key});
+class GiveawayScreen extends StatelessWidget {
+  const GiveawayScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("FC Mobile"),
+        title: const Text("Giveaways"),
       ),
       body: const Center(
-        child: Text("FC Mobile Hub"),
+        child: Text("Current Giveaways"),
       ),
     );
   }
